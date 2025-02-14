@@ -1,8 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブラウザで開く</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 90%;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 4px 8px rgba(0, 86, 179, 0.3);
+        }
+    </style>
+</head>
 <body>
 
-<a href="#" onclick="window.open('https://www.tiktok.com/coin?lang=ja-JP', '_blank')">ブラウザで開く</a>
-</script>
+    <div class="container">
+        <p>リンクを長押しして「ブラウザで開く」を選択してください。</p>
+        <a href="hhttps://www.tiktok.com/coin?lang=ja-JP" class="button">外部ブラウザで開く</a>
+    </div>
+
 </body>
 </html>
