@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
 <body>
-    <a href="https://www.tiktok.com/coin?lang=ja-JP" target="_blank" rel="noopener noreferrer">外部ブラウザで開く</a>
+
+
+    <a href="#" onclick="openExternal()">ブラウザで開く</a>
+
+<script>
+  function openExternal() {
+    var url = "https://www.tiktok.com/coin?lang=ja-JP";
+    window.location.href = "https://www.google.com/search?q=" + encodeURIComponent(url);
+  }
+</script>
 </body>
 </html>
