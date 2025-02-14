@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0;url=https://www.tiktok.com/coin?lang=ja-JP">
-    <script>
-        window.location.href = "https://www.tiktok.com/coin?lang=ja-JP";
-    </script>
+    <title>TikTok Coin</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <p>リダイレクト中... <a href="https://www.tiktok.com/coin?lang=ja-JP">こちらをクリック</a> してください。</p>
+    <iframe src="https://www.tiktok.com/coin?lang=ja-JP" allowfullscreen></iframe>
 </body>
 </html>
